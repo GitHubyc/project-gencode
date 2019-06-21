@@ -1,0 +1,6 @@
+作用：
+生成各表字段的word形式，省略重复性工作
+
+流程：
+在application中设置需要生成的表，点击运行即可在项目model目录下生成各表对应在xml中的格式文件，并汇总到数据字典文件中，
+example_front.xml内容和数据字典以及example_after.xml内容拼接成完整文件，然后以word打开此文件保存即可。
